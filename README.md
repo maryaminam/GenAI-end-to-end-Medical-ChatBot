@@ -2,7 +2,7 @@
 
 A stunning, privacy-friendly chatbot interface built using **Flask**, **LangChain**, and **Ollama** running local LLMs **LLaMA3** — with no API keys or internet required.
 
-![Chatbot Screenshot](static/screenshot.png)
+![Chatbot Screenshot](static/image.png)
 
 ---
 
@@ -24,3 +24,25 @@ A stunning, privacy-friendly chatbot interface built using **Flask**, **LangChai
 Then pull a model:
 ```bash
 ollama pull llama3
+
+### 2. Clone the Project
+```bash
+git clone https://github.com/your-username/flask-ollama-chatbot.git
+cd flask-ollama-chatbot
+
+### 3. Create a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+### 4. Install Dependencies
+```bash
+pip install -r requirements.txt
+### 5. Run the App
+Start Ollama in the background:
+
+```bash
+ollama run llama3
+Then run the Flask app:
+
+```bash
+python app.py
