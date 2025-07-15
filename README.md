@@ -1,6 +1,6 @@
 # 🧠 Local Chatbot with Flask + Ollama + LangChain
 
-A stunning, privacy-friendly chatbot interface built using **Flask**, **LangChain**, and **Ollama** running local LLMs **LLaMA3** — with no API keys or internet required.
+A chatbot interface built using **Flask**, **LangChain**, and **Ollama** running local LLM **LLaMA3** — with no API keys or internet required.
 
 ![Chatbot Screenshot](static/image.png)
 
